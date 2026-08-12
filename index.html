@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio d'Anthia Diallo — Étudiante en BUT Informatique en apprentissage, assistante data analyst chez SNCF Réseau." />
+  <title>Anthia Diallo — Portfolio</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>" />
+</head>
+<body>
+
+  <div id="progress-bar"></div>
+
+  <!-- ══════════════ NAVIGATION ══════════════ -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo">Anthia <span>Diallo</span></a>
+
+        <ul class="nav-links">
+          <li><a href="#apropos">Qui suis-je</a></li>
+          <li><a href="#parcours">Parcours</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#veille">Veille</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+
+        <button class="burger" id="burger" aria-label="Ouvrir le menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section id="hero">
+    <div class="hero-bg-text" aria-hidden="true">Data</div>
+
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <p class="hero-eyebrow">Apprentie Data Analyst · BUT Informatique</p>
+          <h1 class="hero-name">Anthia<br><em>Diallo</em></h1>
+          <p class="hero-title">Étudiante en BUT Informatique en apprentissage</p>
+
+          <p class="hero-accroche">
+            J'ai commencé par vouloir protéger les systèmes.<br>
+            J'ai continué en voulant comprendre ce qu'ils racontent.
+          </p>
+
+          <p class="hero-bio">
+            Deuxième année de BUT Informatique à l'Université Sorbonne Paris Nord,
+            en apprentissage chez SNCF Réseau comme assistante data analyst. Ce qui
+            m'intéresse dans une donnée, ce n'est pas le chiffre : c'est la décision
+            qu'il permet de prendre.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projets" class="btn btn-primary">
+              Découvrir mes projets
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-outline">Me contacter</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-card">
+            <span class="hero-card-label">En apprentissage</span>
+            <span class="hero-card-value">SNCF Réseau</span>
+            <span class="hero-card-sub">Assistante Data Analyst — depuis septembre 2025</span>
+          </div>
+          <div class="hero-card">
+            <span class="hero-card-label">Formation</span>
+            <span class="hero-card-value">BUT Informatique</span>
+            <span class="hero-card-sub">Université Sorbonne Paris Nord — IUT de Villetaneuse</span>
+          </div>
+          <div class="hero-card">
+            <span class="hero-card-label">Domaines</span>
+            <span class="hero-card-value">Data &amp; Développement</span>
+            <span class="hero-card-sub">Power BI · Java Spring Boot · SQL · PowerApps</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      scroll
+    </div>
+  </section>
+
+  <!-- ══════════════ QUI SUIS-JE ══════════════ -->
+  <section id="apropos">
+    <div class="container">
+      <div class="apropos-grid">
+
+        <div class="apropos-left reveal-left">
+          <p class="section-label">Qui suis-je</p>
+          <h2 class="apropos-heading">
+            Faire parler<br>
+            les données,<br>
+            <em>et les gens avec.</em>
+          </h2>
+
+          <div class="apropos-photo-placeholder">
+            <div class="apropos-photo-placeholder-inner">
+              <p style="font-size:2rem; margin-bottom:.5rem;">👤</p>
+              <p>Ajouter la photo dans<br>assets/photo.jpg</p>
+            </div>
+            <!-- <img src="assets/photo.jpg" alt="Portrait d'Anthia Diallo" /> -->
+          </div>
+        </div>
+
+        <div class="apropos-text">
+
+          <p class="reveal reveal-delay-1">
+            Je n'ai pas eu de révélation devant un écran à dix ans. Mon chemin a été plus
+            tâtonnant : après un baccalauréat scientifique obtenu à Dakar, j'ai intégré une
+            école d'intelligence artificielle et de sciences des données, persuadée que c'était
+            là que tout se jouait. J'y ai appris beaucoup — et notamment que j'avais besoin de
+            comprendre ce qu'il y avait sous le capot avant de manipuler des modèles.
+          </p>
+
+          <p class="reveal reveal-delay-2">
+            J'ai donc bifurqué vers le BUT Informatique, pour construire des fondations solides :
+            programmation, bases de données, réseaux, systèmes. Cette réorientation reste l'une
+            des décisions dont je suis la plus satisfaite : elle m'a appris à évaluer une
+            situation honnêtement plutôt qu'à m'accrocher à un choix par principe.
+          </p>
+
+          <p class="reveal reveal-delay-3">
+            C'est en cours de route, sur des projets de modélisation et d'analyse, que quelque
+            chose s'est débloqué. Partir d'un fichier brut, le structurer, le questionner, et
+            finir avec un graphique qui répond à une question qu'on se posait vraiment : c'est
+            ce moment-là qui m'a accrochée. Aujourd'hui encore, c'est ce que je préfère dans
+            mon travail.
+          </p>
+
+          <h3 class="apropos-subtitle reveal">Pourquoi l'apprentissage</h3>
+
+          <p class="reveal">
+            J'avais déjà travaillé pendant mes études — en caisse, puis comme cheffe d'équipe
+            et formatrice en restauration rapide. J'y ai découvert que j'apprenais mieux en
+            faisant, et que le contact avec des situations concrètes me stimulait davantage
+            que les cours seuls.
+          </p>
+
+          <p class="reveal">
+            Depuis septembre 2025, je suis apprentie data analyst chez SNCF Réseau, et je
+            mesure chaque semaine l'écart entre un exercice noté et un vrai besoin métier.
+            À l'IUT, l'énoncé est donné. En entreprise, il faut d'abord le construire :
+            comprendre ce que la personne en face cherche à savoir, pourquoi, et ce qu'elle
+            en fera. Cette traduction d'un besoin flou en question analysable, aucun cours
+            ne me l'aurait apprise.
+          </p>
+
+          <h3 class="apropos-subtitle reveal">Ce qui compte pour moi</h3>
+
+          <div class="valeurs-grid reveal">
+            <div class="valeur-card">
+              <div class="valeur-icon">🎯</div>
+              <div class="valeur-title">La fiabilité</div>
+              <p class="valeur-desc">
+                Un chiffre faux dans un tableau de bord ne reste pas un chiffre faux : il
+                devient une décision mal prise. Je préfère prendre une heure de plus à
+                vérifier mes sources que livrer vite quelque chose dont je ne suis pas sûre.
+              </p>
+            </div>
+            <div class="valeur-card">
+              <div class="valeur-icon">🤝</div>
+              <div class="valeur-title">La transmission</div>
+              <p class="valeur-desc">
+                J'ai été formatrice avant d'être apprentie. Accompagner de nouveaux équipiers
+                m'a appris qu'expliquer clairement force à mieux comprendre soi-même. Si je ne
+                sais pas expliquer une analyse simplement, c'est que je ne la maîtrise pas.
+              </p>
+            </div>
+            <div class="valeur-card">
+              <div class="valeur-icon">🌱</div>
+              <div class="valeur-title">La constance</div>
+              <p class="valeur-desc">
+                Je m'entraîne en salle quatre à cinq fois par semaine depuis des années, en
+                parallèle des cours et du travail. Les résultats viennent de la régularité,
+                pas de l'intensité ponctuelle. J'aborde mes projets de la même manière.
+              </p>
+            </div>
+          </div>
+
+          <div class="projet-pro-box reveal">
+            <h4>Mon projet — formation &amp; parcours professionnel</h4>
+            <p>
+              Je ne prétends pas avoir un plan verrouillé, et je crois qu'il serait malhonnête
+              de le faire croire à ce stade. Ce que je sais : je veux poursuivre mes études
+              après le BUT, en master ou en école d'ingénieurs, pour approfondir sérieusement
+              un domaine plutôt que d'en survoler plusieurs.
+            </p>
+            <p>
+              Deux directions me tiennent. La <strong>data</strong>, dans laquelle je travaille
+              aujourd'hui et qui me plaît pour son utilité immédiate. Et la
+              <strong>cybersécurité</strong>, qui m'attirait avant même mon entrée en BUT et qui
+              continue de m'intéresser. Les deux se rejoignent d'ailleurs plus qu'on ne le pense :
+              protéger un système d'information suppose de savoir ce qui y circule.
+            </p>
+            <p>
+              Mes deux années d'apprentissage restantes serviront à trancher — en connaissance
+              de cause plutôt qu'au feeling.
+            </p>
+          </div>
+
+          <div class="apropos-infos reveal">
+            <div class="info-item">
+              <label>Localisation</label>
+              <span>Région parisienne</span>
+            </div>
+            <div class="info-item">
+              <label>Langues</label>
+              <span>Français · Anglais</span>
+            </div>
+            <div class="info-item">
+              <label>Statut</label>
+              <span>Apprentie — BUT Informatique</span>
+            </div>
+            <div class="info-item">
+              <label>Entreprise d'accueil</label>
+              <span>SNCF Réseau</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ PARCOURS ══════════════ -->
+  <section id="parcours">
+    <div class="container">
+      <div class="parcours-header">
+        <div>
+          <p class="section-label reveal" style="margin-bottom:1rem;">Parcours</p>
+          <p class="section-intro reveal" style="margin-bottom:0;">
+            Les étapes qui m'ont menée là où je suis aujourd'hui, entre formation et
+            expérience professionnelle.
+          </p>
+        </div>
+        <a href="assets/CV_Anthia_Diallo.pdf" download class="btn btn-primary reveal">
+          Télécharger mon CV
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        </a>
+      </div>
+
+      <div class="parcours-grid">
+        <div>
+          <h3 class="parcours-col-title reveal">Formation</h3>
+          <div class="timeline">
+            <div class="timeline-item reveal reveal-delay-1">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2024 – 2027</div>
+              <div class="timeline-title">BUT Informatique</div>
+              <div class="timeline-place">Université Sorbonne Paris Nord — IUT de Villetaneuse</div>
+              <div class="timeline-desc">Première année en formation initiale, puis passage en <strong>formation par apprentissage</strong> dès la deuxième année. Parcours couvrant le développement d'applications, la gestion de données, les systèmes et les réseaux.</div>
+            </div>
+
+            <div class="timeline-item reveal reveal-delay-2">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2023 – 2024</div>
+              <div class="timeline-title">Programme Grande École — 1ʳᵉ année validée</div>
+              <div class="timeline-place">Aivancity — Paris-Cachan · École d'IA et de data science</div>
+              <div class="timeline-desc">Premières bases en intelligence artificielle et sciences des données, avant une réorientation assumée vers une formation plus technique et polyvalente.</div>
+            </div>
+
+            <div class="timeline-item reveal reveal-delay-3">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2022 – 2023</div>
+              <div class="timeline-title">Baccalauréat Général — Série S</div>
+              <div class="timeline-place">Lycée Cours Privés M.A. Dabakh — Dakar, Sénégal</div>
+              <div class="timeline-desc">Baccalauréat scientifique.</div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="parcours-col-title reveal">Expérience professionnelle</h3>
+          <div class="timeline">
+            <div class="timeline-item reveal reveal-delay-1">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">Depuis septembre 2025</div>
+              <div class="timeline-title">Assistante Data Analyst — Apprentissage</div>
+              <div class="timeline-place">SNCF Réseau — Direction de l'exploitation</div>
+              <div class="timeline-desc">Exploitation de données issues des systèmes d'information et des outils métiers pour appuyer le suivi de la performance opérationnelle. Conception de tableaux de bord et d'applications métiers, participation à des démarches d'amélioration continue.</div>
+            </div>
+
+            <div class="timeline-item reveal reveal-delay-2">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">Avril 2024 – Août 2025</div>
+              <div class="timeline-title">Formatrice / Cheffe d'équipe</div>
+              <div class="timeline-place">McDonald's — Saint-Ouen</div>
+              <div class="timeline-desc">Encadrement et formation de nouveaux équipiers, gestion opérationnelle du service en période de forte affluence. Une école exigeante de la coordination d'équipe et du sang-froid.</div>
+            </div>
+
+            <div class="timeline-item reveal reveal-delay-3">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">Octobre 2023 – Mars 2024</div>
+              <div class="timeline-title">Caissière</div>
+              <div class="timeline-place">Super U — Chelles</div>
+              <div class="timeline-desc">Relation client et gestion de caisse. Premier contact avec les exigences de rigueur et de fiabilité en environnement professionnel.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ COMPÉTENCES ══════════════ -->
+  <section id="competences">
+    <div class="container">
+      <p class="section-label reveal">Compétences</p>
+      <p class="section-intro reveal">
+        Compétences techniques développées au fil de la formation et de l'apprentissage,
+        articulées autour des blocs de compétences du programme national du BUT Informatique.
+      </p>
+
+      <div class="skills-grid">
+
+        <div class="skill-category reveal reveal-delay-1">
+          <div class="skill-cat-icon">📊</div>
+          <div class="skill-cat-title">Données &amp; Business Intelligence</div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">Power BI — Power Query, DAX, Deneb</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Excel — analyse et traitement de données</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="82"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">PowerApps &amp; Power Automate</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Python — Pandas, Matplotlib</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="72"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-2">
+          <div class="skill-cat-icon">💻</div>
+          <div class="skill-cat-title">Développement d'applications</div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">Java &amp; Spring Boot</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="72"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">HTML / CSS / JavaScript</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Architecture logicielle — SOLID, Repository, MVC</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="65"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Tests unitaires et d'intégration</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="62"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-3">
+          <div class="skill-cat-icon">🗄️</div>
+          <div class="skill-cat-title">Bases de données</div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">PostgreSQL &amp; SQL</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="78"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Modélisation — MCD, MEA, UML</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="75"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">SQL intégré (JDBC, PDO)</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="68"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">MySQL / MariaDB · notions NoSQL</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="65"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal reveal-delay-4">
+          <div class="skill-cat-icon">🛡️</div>
+          <div class="skill-cat-title">Systèmes, réseaux &amp; sécurité</div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <span class="skill-name">Linux (Debian, Ubuntu) &amp; Bash</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="72"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Docker &amp; virtualisation</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="62"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Cryptographie &amp; sécurité</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="60"></div></div>
+            </div>
+            <div class="skill-item">
+              <span class="skill-name">Git &amp; GitHub</span>
+              <div class="skill-bar"><div class="skill-bar-fill" data-level="70"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="but-comp reveal">
+        <h4>Blocs de compétences — Programme national du BUT Informatique</h4>
+        <div class="but-comp-grid">
+          <div class="but-comp-item">
+            <span class="but-comp-code">UE 1</span>
+            <span class="but-comp-name">Réaliser un développement d'application</span>
+          </div>
+          <div class="but-comp-item">
+            <span class="but-comp-code">UE 2</span>
+            <span class="but-comp-name">Optimiser des applications informatiques</span>
+          </div>
+          <div class="but-comp-item">
+            <span class="but-comp-code">UE 3</span>
+            <span class="but-comp-name">Administrer des systèmes informatiques communicants</span>
+          </div>
+          <div class="but-comp-item">
+            <span class="but-comp-code">UE 4</span>
+            <span class="but-comp-name">Gérer des données de l'information</span>
+          </div>
+          <div class="but-comp-item">
+            <span class="but-comp-code">UE 5</span>
+            <span class="but-comp-name">Conduire un projet</span>
+          </div>
+          <div class="but-comp-item">
+            <span class="but-comp-code">UE 6</span>
+            <span class="but-comp-name">Travailler dans une équipe informatique</span>
+          </div>
+        </div>
+
+        <div class="ressources-note">
+          <h4>Enseignements suivis en 2ᵉ année</h4>
+          <div class="ressources-tags">
+            <span class="tag tag-sage">Développement web</span>
+            <span class="tag tag-sage">Architecture logicielle</span>
+            <span class="tag tag-sage">Qualité de développement</span>
+            <span class="tag tag-sage">Programmation système</span>
+            <span class="tag tag-sage">Architecture des réseaux</span>
+            <span class="tag tag-sage">SQL dans un langage de programmation</span>
+            <span class="tag tag-sage">Bases non-relationnelles</span>
+            <span class="tag tag-sage">Cryptographie et sécurité</span>
+            <span class="tag tag-sage">Probabilités &amp; Analyse</span>
+            <span class="tag tag-sage">Méthodes d'optimisation</span>
+            <span class="tag tag-sage">Virtualisation</span>
+            <span class="tag tag-sage">Management des systèmes d'information</span>
+            <span class="tag tag-sage">Développement mobile</span>
+            <span class="tag tag-sage">Automates et langages</span>
+            <span class="tag tag-sage">Droit des contrats et du numérique</span>
+            <span class="tag tag-sage">Communication professionnelle</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ PROJETS ══════════════ -->
+  <section id="projets">
+    <div class="container">
+      <p class="section-label reveal">Projets</p>
+      <p class="section-intro reveal">
+        Projets académiques, professionnels et personnels, classés par compétence et
+        technologie. Utilisez les filtres ci-dessous pour explorer par domaine.
+      </p>
+
+      <div class="filters reveal" role="group" aria-label="Filtrer les projets">
+        <button class="filter-btn active" data-filter="all" aria-pressed="true">Tous</button>
+        <button class="filter-btn" data-filter="java" aria-pressed="false">Java</button>
+        <button class="filter-btn" data-filter="python" aria-pressed="false">Python</button>
+        <button class="filter-btn" data-filter="sql" aria-pressed="false">SQL &amp; BDD</button>
+        <button class="filter-btn" data-filter="data" aria-pressed="false">Data &amp; BI</button>
+        <button class="filter-btn" data-filter="web" aria-pressed="false">Web</button>
+        <button class="filter-btn" data-filter="systeme" aria-pressed="false">Systèmes &amp; Réseaux</button>
+        <button class="filter-btn" data-filter="equipe" aria-pressed="false">Travail en équipe</button>
+      </div>
+
+      <div class="projets-list">
+
+        <!-- 01 — SAÉ e-learning -->
+        <div class="projet-item reveal" data-tags="java sql web equipe">
+          <div class="projet-content">
+            <p class="projet-meta">Projet académique · SAÉ · BUT 2 — 2025/2026</p>
+            <div class="projet-tags">
+              <span class="tag">Java Spring Boot</span>
+              <span class="tag">API REST</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">Docker</span>
+              <span class="tag">JWT</span>
+              <span class="tag">Swagger</span>
+            </div>
+            <div class="projet-competence">Réaliser un développement d'application · Conduire un projet</div>
+            <h3 class="projet-title">Plateforme e-learning — conception de l'API</h3>
+            <p class="projet-desc">
+              Développement en équipe de quatre d'un prototype de plateforme d'apprentissage
+              en ligne : catalogue de cours, inscription, suivi de progression et messagerie
+              entre étudiants et formateurs. J'ai contribué à la conception du schéma
+              relationnel et au développement d'une API REST sécurisée par JWT, documentée
+              avec Swagger, et déployée via Docker Compose.
+            </p>
+            <div class="projet-apports">
+              <strong>Ce que j'en retiens :</strong> documenter l'API avec Swagger avant de
+              coder nous a évité beaucoup d'allers-retours : chacun savait exactement quelles
+              données attendre. Le rôle de manager tournant m'a aussi montré qu'organiser le
+              travail des autres demande autant d'attention que la partie technique.
+            </div>
+            <div class="projet-links">
+              <a href="#" class="projet-link" target="_blank" rel="noopener">↗ Voir le dépôt GitHub</a>
+            </div>
+          </div>
+          <div class="projet-side" aria-hidden="true">01</div>
+        </div>
+
+        <!-- 02 — Refonte -->
+        <div class="projet-item reveal" data-tags="java web equipe">
+          <div class="projet-content">
+            <p class="projet-meta">Projet académique · SAÉ · BUT 2 — 2025/2026</p>
+            <div class="projet-tags">
+              <span class="tag">Architecture en couches</span>
+              <span class="tag">SOLID</span>
+              <span class="tag">Pattern Repository</span>
+              <span class="tag">Tests unitaires</span>
+              <span class="tag">JUnit</span>
+            </div>
+            <div class="projet-competence">Optimiser des applications · Travailler dans une équipe informatique</div>
+            <h3 class="projet-title">Refonte architecturale &amp; client API</h3>
+            <p class="projet-desc">
+              Deuxième phase du projet e-learning : refactorisation du back-end pour passer
+              d'une architecture fortement couplée à une organisation en quatre couches
+              (API, services, domaine, infrastructure). Mise en œuvre du pattern Repository
+              et de l'inversion de dépendance, puis développement d'un client consommant
+              l'API avec gestion explicite des erreurs.
+            </p>
+            <div class="projet-apports">
+              <strong>Ce que j'en retiens :</strong> devoir refactoriser notre propre code
+              deux mois après l'avoir écrit a été la meilleure leçon d'architecture possible.
+              Un code qui fonctionne mais qu'on ne peut pas tester sans lancer toute la chaîne
+              n'est pas un code fini — c'est une dette qu'on se laisse à soi-même.
+            </div>
+            <div class="projet-links">
+              <a href="#" class="projet-link" target="_blank" rel="noopener">↗ Voir le dépôt GitHub</a>
+            </div>
+          </div>
+          <div class="projet-side" aria-hidden="true">02</div>
+        </div>
+
+        <!-- 03 — SNCF dashboards -->
+        <div class="projet-item reveal" data-tags="data equipe">
+          <div class="projet-content">
+            <p class="projet-meta">Projet professionnel · SNCF Réseau · 2025/2026</p>
+            <div class="projet-tags">
+              <span class="tag">Power BI</span>
+              <span class="tag">Power Query</span>
+              <span class="tag">DAX</span>
+              <span class="tag">Excel</span>
+            </div>
+            <div class="projet-competence">Gérer des données de l'information</div>
+            <h3 class="projet-title">Tableaux de bord de suivi de la performance</h3>
+            <p class="projet-desc">
+              Dans le cadre de mon apprentissage, je conçois des tableaux de bord destinés au
+              suivi d'indicateurs opérationnels. Le travail couvre l'ensemble de la chaîne :
+              extraction et nettoyage des données sources, modélisation, création de mesures
+              calculées, puis conception de visualisations lisibles pour des interlocuteurs
+              non techniques.
+            </p>
+            <div class="projet-apports">
+              <strong>Ce que j'en retiens :</strong> la partie technique n'est pas la plus
+              difficile. Le vrai travail consiste à comprendre ce que l'utilisateur cherche
+              réellement à savoir — ce qui n'est jamais exactement ce qu'il demande au départ.
+              J'ai appris à poser des questions avant d'ouvrir Power BI.
+            </div>
+            <p style="font-size:0.78rem; color:var(--ink-light); font-style:italic;">
+              Pour des raisons de confidentialité, ce projet est présenté de manière générale,
+              sans données ni documents d'entreprise.
+            </p>
+          </div>
+          <div class="projet-side" aria-hidden="true">03</div>
+        </div>
+
+        <!-- 04 — PowerApps -->
+        <div class="projet-item reveal" data-tags="data">
+          <div class="projet-content">
+            <p class="projet-meta">Projet professionnel · SNCF Réseau · 2025/2026</p>
+            <div class="projet-tags">
+              <span class="tag">PowerApps</span>
+              <span class="tag">Power Automate</span>
+            </div>
+            <div class="projet-competence">Réaliser un développement d'application · Conduire un projet</div>
+            <h3 class="projet-title">Application métier de collecte de données</h3>
+            <p class="projet-desc">
+              Conception d'une application interne permettant de simplifier la saisie et la
+              remontée d'informations de terrain, avec automatisation de certaines étapes de
+              traitement. Un projet mené au contact direct des utilisateurs finaux, du recueil
+              du besoin jusqu'à la mise en service.
+            </p>
+            <div class="projet-apports">
+              <strong>Ce que j'en retiens :</strong> une application n'a de valeur que si elle
+              est réellement adoptée. Les retours des premiers utilisateurs m'ont fait revoir
+              des choix d'interface que je trouvais pourtant évidents — un rappel utile que
+              je ne suis pas l'utilisateur de ce que je construis.
+            </div>
+            <p style="font-size:0.78rem; color:var(--ink-light); font-style:italic;">
+              Présentation volontairement générale pour respecter la confidentialité de
+              l'entreprise.
+            </p>
+          </div>
+          <div class="projet-side" aria-hidden="true">04</div>
+        </div>
+
+        <!-- 05 — Ce portfolio -->
+        <div class="projet-item reveal" data-tags="web">
+          <div class="projet-content">
+            <p class="projet-meta">Projet personnel · 2026</p>
+            <div class="projet-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Git &amp; GitHub Pages</span>
+            </div>
+            <div class="projet-competence">Réaliser un développement d'application</div>
+            <h3 class="projet-title">Ce portfolio</h3>
+            <p class="projet-desc">
+              Site vitrine développé sans framework, en HTML, CSS et JavaScript natifs.
+              Structure séparée en fichiers dédiés, animations au défilement via l'API
+              IntersectionObserver, filtrage dynamique des projets, design responsive et
+              déploiement continu sur GitHub Pages.
+            </p>
+            <div class="projet-apports">
+              <strong>Ce que j'en retiens :</strong> j'ai choisi de le coder plutôt que
+              d'utiliser un générateur, parce qu'un portfolio d'étudiante en informatique
+              devrait être cohérent avec ce qu'elle affirme savoir faire. Travailler sans
+              framework m'a obligée à comprendre ce que ces outils font à ma place d'habitude.
+            </div>
+            <div class="projet-links">
+              <a href="#" class="projet-link" target="_blank" rel="noopener">↗ Code source sur GitHub</a>
+            </div>
+          </div>
+          <div class="projet-side" aria-hidden="true">05</div>
+        </div>
+
+        <!-- 06 — Échecs -->
+        <div class="projet-item reveal" data-tags="java equipe">
+          <div class="projet-content">
+            <p class="projet-meta">Projet académique · BUT 1 — 2024/2025</p>
+            <div class="projet-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Programmation orientée objet</span>
+              <span class="tag">UML</span>
+            </div>
+            <div class="projet-competence">Réaliser un développement d'application</div>
+            <h3 class="projet-title">Jeu d'échecs en Java</h3>
+            <p class="projet-desc">
+              Conception et développement en binôme d'un jeu d'échecs complet en ligne de
+              commande, respectant l'ensemble des règles du jeu (déplacements valides, échec,
+              mat, pat). Le projet a débuté par une modélisation UML avant l'implémentation
+              orientée objet des classes pièces, échiquier, joueur et partie.
+            </p>
+            <div class="projet-apports">
+              <strong>Ce que j'en retiens :</strong> l'héritage et le polymorphisme sont restés
+              abstraits pour moi jusqu'à ce qu'il faille gérer six types de pièces aux règles
+              de déplacement différentes. C'est le projet qui a fait passer la POO du cours
+              magistral à quelque chose que je comprends vraiment.
+            </div>
+            <div class="projet-links">
+              <a href="#" class="projet-link" target="_blank" rel="noopener">↗ Voir le dépôt GitHub</a>
+            </div>
+          </div>
+          <div class="projet-side" aria-hidden="true">06</div>
+        </div>
+
+        <!-- 07 — BDD climat -->
+        <div class="projet-item reveal" data-tags="sql">
+          <div class="projet-content">
+            <p class="projet-meta">Projet académique · BUT 1 — 2024/2025</p>
+            <div class="projet-tags">
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Modélisation</span>
+            </div>
+            <div class="projet-competence">Gérer des données de l'information</div>
+            <h3 class="projet-title">Base de données sur les catastrophes climatiques</h3>
+            <p class="projet-desc">
+              Conception d'une base de données relationnelle recensant la fréquence des
+              catastrophes climatiques par pays et par année. Modélisation conceptuelle puis
+              physique à l'aide d'un atelier de génie logiciel, génération du script SQL,
+              implémentation sous PostgreSQL et alimentation à partir de fichiers CSV réels.
+            </p>
+            <div class="projet-apports">
+              <strong>Ce que j'en retiens :</strong> importer des données réelles, et non des
+              jeux d'essai propres, m'a confrontée à des valeurs manquantes et des formats
+              incohérents. Le temps passé à nettoyer en amont vaut toujours mieux que les
+              erreurs découvertes en aval — une leçon que je réapplique tous les jours en entreprise.
+            </div>
+          </div>
+          <div class="projet-side" aria-hidden="true">07</div>
+        </div>
+
+        <!-- 08 — SocialConnect -->
+        <div class="projet-item reveal" data-tags="python sql data equipe">
+          <div class="projet-content">
+            <p class="projet-meta">Projet académique · BUT 1 — 2024/2025</p>
+            <div class="projet-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Matplotlib</span>
+              <span class="tag">SQL</span>
+            </div>
+            <div class="projet-competence">Gérer des données de l'information · Travailler en équipe</div>
+            <h3 class="projet-title">Analyse de données d'un réseau social</h3>
+            <p class="projet-desc">
+              Projet mené en groupe de quatre autour de SocialConnect, un réseau social fictif.
+              Conception d'un modèle entité-association, structuration d'une base relationnelle
+              à partir d'un fichier Excel, puis analyse de l'engagement des utilisateurs avec
+              Pandas et production de visualisations avec Matplotlib pour répondre à des
+              problématiques précises.
+            </p>
+            <div class="projet-apports">
+              <strong>Ce que j'en retiens :</strong> c'est le projet qui a décidé de la suite.
+              Voir un graphique révéler un écart qu'aucun de nous n'avait anticipé m'a donné
+              envie de faire ça sérieusement — et c'est très exactement ce que je fais
+              aujourd'hui chez SNCF Réseau, à une autre échelle.
+            </div>
+          </div>
+          <div class="projet-side" aria-hidden="true">08</div>
+        </div>
+
+        <!-- 09 — Réseaux -->
+        <div class="projet-item reveal" data-tags="systeme">
+          <div class="projet-content">
+            <p class="projet-meta">Projet académique · BUT 1 — 2024/2025</p>
+            <div class="projet-tags">
+              <span class="tag">Linux Debian</span>
+              <span class="tag">LAMP</span>
+              <span class="tag">SSH / FTP</span>
+              <span class="tag">Wireshark</span>
+              <span class="tag">VirtualBox</span>
+            </div>
+            <div class="projet-competence">Administrer des systèmes informatiques communicants</div>
+            <h3 class="projet-title">Mise en place de services réseaux</h3>
+            <p class="projet-desc">
+              Déploiement d'un environnement réseau fonctionnel sur une machine Debian :
+              installation d'un serveur LAMP, configuration d'un répertoire web personnel,
+              mise en place de serveurs FTP et SSH sécurisés, virtualisation avec VirtualBox
+              et Marionnet, et analyse du trafic réseau avec Wireshark.
+            </p>
+            <div class="projet-apports">
+              <strong>Ce que j'en retiens :</strong> observer dans Wireshark ce qui circule
+              réellement sur le réseau rend la sécurité beaucoup moins théorique. C'est ce
+              projet qui a entretenu mon intérêt pour la cybersécurité, même après ma
+              réorientation vers la data.
+            </div>
+          </div>
+          <div class="projet-side" aria-hidden="true">09</div>
+        </div>
+
+      </div>
+
+      <p class="projets-empty" id="projets-empty">Aucun projet ne correspond à ce filtre.</p>
+    </div>
+  </section>
+
+  <!-- ══════════════ VEILLE ══════════════ -->
+  <section id="veille">
+    <div class="container">
+      <p class="section-label reveal">Veille technologique</p>
+      <p class="section-intro reveal">
+        Travaillant quotidiennement avec des données d'exploitation, je suis particulièrement
+        attentive à deux questions : comment les organisations gouvernent et protègent leurs
+        données, et comment évoluent les outils qui servent à les analyser. Trois sujets que
+        je suis en ce moment.
+      </p>
+
+      <div class="veille-grid">
+
+        <div class="veille-card reveal reveal-delay-1">
+          <div class="veille-num">01</div>
+          <div class="veille-card-title">L'IA générative comme arme et comme cible — rapport ANSSI, février 2026</div>
+          <p class="veille-card-desc">
+            L'ANSSI a publié en février 2026 sa première synthèse consacrée à l'usage dual de
+            l'IA générative : à la fois outil au service des attaquants et nouvelle surface
+            d'attaque. Ce qui me marque, c'est la nuance du rapport — aucune attaque autonome
+            n'a été attribuée à une IA en France, mais ces outils abaissent nettement le seuil
+            d'entrée de l'ingénierie sociale. Un sujet qui relie mes deux centres d'intérêt :
+            la donnée et sa protection.
+          </p>
+          <a href="https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-001/" class="veille-source" target="_blank" rel="noopener">↗ CERT-FR — CERTFR-2026-CTI-001</a>
+        </div>
+
+        <div class="veille-card reveal reveal-delay-2">
+          <div class="veille-num">02</div>
+          <div class="veille-card-title">La CNIL devient régulateur de l'IA au titre de l'AI Act</div>
+          <p class="veille-card-desc">
+            Avec l'entrée en application progressive du règlement européen sur l'IA, la CNIL
+            devient autorité de surveillance du marché pour certains systèmes à haut risque,
+            et fait de la gouvernance de l'IA une priorité de ses contrôles 2026. Cela me
+            concerne directement : travailler sur des données d'exploitation suppose de savoir
+            ce qu'on a le droit d'en faire, pas seulement comment les traiter techniquement.
+          </p>
+          <a href="https://www.cnil.fr/" class="veille-source" target="_blank" rel="noopener">↗ Publications de la CNIL</a>
+        </div>
+
+        <div class="veille-card reveal reveal-delay-3">
+          <div class="veille-num">03</div>
+          <div class="veille-card-title">Power BI et Microsoft Fabric : de la restitution à la décision</div>
+          <p class="veille-card-desc">
+            Les évolutions récentes de Power BI, portées par l'intégration à Microsoft Fabric,
+            déplacent l'outil : d'un support de restitution, il devient un point de départ de
+            l'action, avec des modèles sémantiques partagés et des capacités d'IA intégrées.
+            Je suis ces mises à jour mensuelles de près, parce qu'elles changent concrètement
+            ma façon de construire un rapport.
+          </p>
+          <a href="https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/bg-p/PowerBIUpdatesBlog" class="veille-source" target="_blank" rel="noopener">↗ Power BI Updates Blog</a>
+        </div>
+
+      </div>
+
+      <div class="veille-outils reveal">
+        <strong>Comment je m'informe :</strong>
+        les publications officielles de l'<a href="https://cyber.gouv.fr/" target="_blank" rel="noopener" class="hover-underline">ANSSI</a>
+        et de la <a href="https://www.cnil.fr/" target="_blank" rel="noopener" class="hover-underline">CNIL</a>
+        pour les sujets de sécurité et de conformité, le blog officiel des mises à jour
+        Power BI pour le volet outillage, ainsi que la presse spécialisée française
+        (Le Monde Informatique, L'Usine Digitale) pour suivre les mouvements du secteur.
+        <em style="display:block; margin-top:0.6rem; font-size:0.8rem;">
+          [À adapter : ne cite que les sources que tu consultes réellement — c'est une
+          question classique en entretien. Ajoute tes comptes LinkedIn suivis, newsletters
+          ou chaînes YouTube si tu en as.]
+        </em>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ SAVOIR-ÊTRE ══════════════ -->
+  <section id="softskills">
+    <div class="container">
+      <p class="section-label reveal">Savoir-être</p>
+      <h2 class="softskills-heading reveal">
+        Des qualités<br>
+        <em>humaines</em> autant<br>
+        que techniques.
+      </h2>
+
+      <div class="softskills-grid">
+        <div class="soft-item reveal reveal-delay-1">
+          <div class="soft-icon">🎯</div>
+          <div class="soft-title">Rigueur</div>
+          <p class="soft-desc">
+            Un indicateur erroné se propage silencieusement jusqu'à la décision. Je recoupe
+            systématiquement mes résultats avec la source avant de livrer.
+          </p>
+        </div>
+        <div class="soft-item reveal reveal-delay-2">
+          <div class="soft-icon">🔍</div>
+          <div class="soft-title">Autonomie</div>
+          <p class="soft-desc">
+            J'ai appris DAX et Deneb en autoformation, en partant de besoins concrets
+            rencontrés en entreprise plutôt que d'un programme théorique.
+          </p>
+        </div>
+        <div class="soft-item reveal reveal-delay-3">
+          <div class="soft-icon">💬</div>
+          <div class="soft-title">Communication</div>
+          <p class="soft-desc">
+            Présenter une analyse à des interlocuteurs non techniques oblige à distinguer
+            ce qui est intéressant de ce qui est utile. C'est un exercice que je pratique
+            chaque semaine.
+          </p>
+        </div>
+        <div class="soft-item reveal reveal-delay-4">
+          <div class="soft-icon">🤝</div>
+          <div class="soft-title">Travail en équipe</div>
+          <p class="soft-desc">
+            Cheffe d'équipe et formatrice pendant plus d'un an, puis manager tournante sur
+            une SAÉ à quatre : j'ai appris à coordonner autant qu'à contribuer.
+          </p>
+        </div>
+        <div class="soft-item reveal reveal-delay-5">
+          <div class="soft-icon">📋</div>
+          <div class="soft-title">Organisation</div>
+          <p class="soft-desc">
+            L'alternance impose deux rythmes simultanés. Je planifie mes semaines à l'avance
+            et je protège des créneaux fixes — c'est la seule méthode qui tienne dans la durée.
+          </p>
+        </div>
+        <div class="soft-item reveal reveal-delay-6">
+          <div class="soft-icon">⚡</div>
+          <div class="soft-title">Adaptabilité</div>
+          <p class="soft-desc">
+            Je suis arrivée dans le secteur ferroviaire sans en connaître le vocabulaire ni
+            les enjeux. Apprendre le métier avant d'analyser ses données a été ma première
+            mission, non écrite.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACT ══════════════ -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div>
+          <p class="section-label reveal">Contact</p>
+          <h2 class="contact-heading reveal">Parlons-en<br><em>ensemble.</em></h2>
+          <p class="contact-text reveal">
+            Un projet, une question sur mon parcours, une opportunité pour la suite de mes
+            études ? Je suis toujours partante pour échanger — que ce soit autour de la
+            donnée, du développement ou simplement d'un retour d'expérience sur l'alternance.
+          </p>
+          <div class="contact-disponible reveal">
+            <span class="contact-dot"></span>
+            En apprentissage jusqu'en 2027
+          </div>
+          <div class="hero-actions reveal">
+            <a href="assets/CV_Anthia_Diallo.pdf" download class="btn btn-primary">
+              Télécharger mon CV
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-links reveal reveal-delay-2">
+          <a href="mailto:dialloanthia03@gmail.com" class="contact-link">
+            <span class="contact-link-icon">✉</span>
+            <span>dialloanthia03@gmail.com</span>
+          </a>
+          <a href="tel:+33768118037" class="contact-link">
+            <span class="contact-link-icon">☎</span>
+            <span>+33 7 68 11 80 37</span>
+          </a>
+          <a href="#" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon" style="font-weight:600;font-size:0.85rem;">in</span>
+            <span>LinkedIn</span>
+          </a>
+          <a href="#" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon" style="font-weight:600;font-size:0.8rem;">GH</span>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">Anthia Diallo</span>
+        <span class="footer-copy">© <span id="year"></span> — Site conçu et développé par mes soins</span>
+        <a href="#hero" class="footer-back">↑ Haut de page</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

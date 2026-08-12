@@ -1,0 +1,70 @@
+/* ============================================================
+   ANTHIA DIALLO — PORTFOLIO
+   animations.css — Scroll reveal & transitions
+   ============================================================ */
+
+/* ── Reveal au scroll ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.reveal.visible { opacity: 1; transform: translateY(0); }
+
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+.reveal-delay-5 { transition-delay: 0.5s; }
+.reveal-delay-6 { transition-delay: 0.6s; }
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-28px);
+  transition: opacity 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.reveal-left.visible { opacity: 1; transform: translateX(0); }
+
+/* ── Animation d'entrée du Hero ── */
+@keyframes heroFadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.hero-eyebrow  { animation: heroFadeIn 0.8s ease 0.2s both; }
+.hero-name     { animation: heroFadeIn 0.8s ease 0.35s both; }
+.hero-title    { animation: heroFadeIn 0.8s ease 0.5s both; }
+.hero-accroche { animation: heroFadeIn 0.8s ease 0.65s both; }
+.hero-bio      { animation: heroFadeIn 0.8s ease 0.78s both; }
+.hero-actions  { animation: heroFadeIn 0.8s ease 0.9s both; }
+.hero-right    { animation: heroFadeIn 0.8s ease 0.55s both; }
+.hero-scroll   { animation: heroFadeIn 0.8s ease 1.1s both; }
+
+/* ── Barre de skill animée ── */
+.skill-bar-fill.animated {
+  transition: width 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* ── Ligne de progression en haut de page ── */
+#progress-bar {
+  position: fixed;
+  top: 0; left: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--sage), var(--terra));
+  z-index: 9999;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+/* ── Respect des préférences d'accessibilité ── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal, .reveal-left { opacity: 1; transform: none; }
+}
