@@ -856,13 +856,11 @@ section { padding: 7rem 0; }
 }
 .veille-outils strong { color: var(--ink); font-weight: 500; }
 
-/* ── ═══════════════════════════════
-   SOFT SKILLS
-   ═══════════════════════════════ */
-#softskills { background: var(--ink); color: var(--white); }
-#softskills .section-label { color: var(--terra-light); }
-#softskills .section-label::before { background: var(--terra); }
-#softskills .section-intro { color: rgba(255,255,255,0.55); }
+/* SOFT SKILLS */
+#softskills { background: var(--sage-dark); color: var(--white); }
+#softskills .section-label { color: rgba(255,255,255,0.75); }
+#softskills .section-label::before { background: var(--terra-light); }
+#softskills .section-intro { color: rgba(255,255,255,0.75); }
 
 .softskills-heading {
   font-family: var(--font-display);
@@ -896,9 +894,7 @@ section { padding: 7rem 0; }
 }
 .soft-desc { font-size: 0.83rem; line-height: 1.7; color: rgba(255,255,255,0.55); }
 
-/* ── ═══════════════════════════════
-   CONTACT
-   ═══════════════════════════════ */
+/* CONTACT */
 #contact { background: var(--cream); padding: 8rem 0; }
 
 .contact-inner {
@@ -979,7 +975,7 @@ section { padding: 7rem 0; }
   50% { opacity: 0.5; transform: scale(0.8); }
 }
 
-/* ── FOOTER ── */
+/* FOOTER */
 footer { background: var(--ink); color: rgba(255,255,255,0.4); padding: 2rem 0; }
 .footer-inner { display: flex; align-items: center; justify-content: space-between; }
 .footer-logo {
@@ -999,9 +995,7 @@ footer { background: var(--ink); color: rgba(255,255,255,0.4); padding: 2rem 0; 
 }
 .footer-back:hover { color: var(--white); }
 
-/* ── ═══════════════════════════════
-   RESPONSIVE
-   ═══════════════════════════════ */
+
 @media (max-width: 900px) {
   .hero-inner { grid-template-columns: 1fr; }
   .hero-right { align-items: flex-start; flex-direction: row; flex-wrap: wrap; }
@@ -1047,7 +1041,7 @@ footer { background: var(--ink); color: rgba(255,255,255,0.4); padding: 2rem 0; 
   .apropos-infos { grid-template-columns: 1fr; }
   .footer-inner { flex-direction: column; gap: 0.75rem; text-align: center; }
 }
-/* ── Captures d'écran de projet ── */
+/* Captures d'écran de projet */
 .projet-visuel {
   margin: 1.2rem 0 0.5rem;
   max-width: 680px;
