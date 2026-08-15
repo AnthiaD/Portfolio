@@ -1,20 +1,12 @@
-/* ============================================================
-   ANTHIA DIALLO — PORTFOLIO
-   style.css — Variables, Reset, Typographie, Layout
-   ============================================================ */
-
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garant:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap');
 
-/* ── Variables ── */
 :root {
-  --cream:     #FFFFFF;
-  --white:     #FFFFFF;
-  --ink:       #1A1A18;
-  --ink-light: #4A4A45;
-  --sage:      #7A9E87;
-  --sage-dark: #4E7260;
-  --terra:     #C4784A;
-  --terra-light: #E8C4A8;
+  --cream: #F8FAFC;
+  --white: #FFFFFF;
+  --sage: #64748B;
+  --sage-dark: #334155;
+  --terra: #0F766E;
+  --terra-light: #CCFBF1;
   --border:    rgba(26,26,24,0.10);
 
   --font-display: 'Cormorant Garant', Georgia, serif;
@@ -25,7 +17,6 @@
   --transition-fast: 0.2s ease;
 }
 
-/* ── Reset ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 html { scroll-behavior: smooth; font-size: 16px; }
@@ -90,7 +81,6 @@ h1, h2, h3 {
   margin-bottom: 3rem;
 }
 
-/* ── Container ── */
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -99,7 +89,6 @@ h1, h2, h3 {
 
 section { padding: 7rem 0; }
 
-/* ── Boutons ── */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -125,7 +114,6 @@ section { padding: 7rem 0; }
 }
 .btn-outline:hover { border-color: var(--sage); color: var(--sage-dark); transform: translateY(-2px); }
 
-/* ── Tags ── */
 .tag {
   display: inline-block;
   font-family: var(--font-mono);
@@ -142,9 +130,7 @@ section { padding: 7rem 0; }
   color: var(--sage-dark);
 }
 
-/* ── ═══════════════════════════════
-   NAVIGATION
-   ═══════════════════════════════ */
+/* NAVIGATION */
 #navbar {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -223,9 +209,7 @@ section { padding: 7rem 0; }
   transition: var(--transition);
 }
 
-/* ── ═══════════════════════════════
-   HERO
-   ═══════════════════════════════ */
+/* HERO */
 #hero {
   min-height: 100vh;
   display: flex;
