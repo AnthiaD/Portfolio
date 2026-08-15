@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garant:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap');
 
 :root {
-  --cream: #F8FAFC;
-  --white: #FFFFFF;
-  --sage: #64748B;
-  --sage-dark: #334155;
-  --terra: #0F766E;
-  --terra-light: #CCFBF1;
+  --cream: #FAF7F8;  --white: #FFFFFF;
+  --sage: #9D7A8C;   --sage-dark: #6B4759;
+  --terra: #B4654A;  --terra-light: #F0D9CE;
   --border:    rgba(26,26,24,0.10);
 
   --font-display: 'Cormorant Garant', Georgia, serif;
