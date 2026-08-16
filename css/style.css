@@ -1086,3 +1086,5 @@ footer { background: var(--ink); color: rgba(255,255,255,0.4); padding: 2rem 0; 
 @media (max-width: 700px) {
   .projet-visuels-duo { grid-template-columns: 1fr; }
 }
+
+.nav-links a { white-space: nowrap; }
